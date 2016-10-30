@@ -26,3 +26,12 @@ void print(stack<int> input)
     }   
     cout << endl;
 }
+
+void print(vector<pair<int,int>>* input)
+{
+    for (auto &x : *input)
+    {   
+        cout << "[" << x.first << "," << x.second << "]";
+    }   
+    cout << endl;
+}
